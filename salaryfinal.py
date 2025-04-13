@@ -3,7 +3,7 @@ import pickle
 import pandas as pd
 
 # Load the trained regression model
-#with open(r"C:\mldeploy\salary2025_model.pkl", "rb") as f:
+# with open(r"C:\mldeploy\salary2025_model.pkl", "rb") as f:
   #  model = pickle.load(f)
 with open("salary2025_model.pkl", "rb") as f:
     model = pickle.load(f)
